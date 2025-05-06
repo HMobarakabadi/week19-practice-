@@ -35,7 +35,7 @@ A simple and fully functional contact form built with React. It supports:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/HMobarakabadi/week17-practice.git
+git clone https://github.com/HMobarakabadi/week19-practice.git
 
 
 # 2. Install dependencies
