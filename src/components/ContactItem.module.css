@@ -1,0 +1,59 @@
+.contactItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.contactItem:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contactItemInfo {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.contactItemCheckbox {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.contactItemActions {
+	display: flex;
+	gap: 10px;
+}
+
+.contactItemButton {
+	padding: 8px 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.contactItemButtonDelete {
+	background-color: #f44336;
+	color: white;
+}
+
+.contactItemButtonDelete:hover {
+	background-color: #d32f2f;
+}
+
+.contactItemButtonEdit {
+	background-color: #ffeb3b;
+	color: black;
+}
+
+.contactItemButtonEdit:hover {
+	background-color: #fbc02d;
+}

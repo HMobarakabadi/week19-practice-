@@ -1,0 +1,56 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: 1rem;
+	margin-bottom: 10px;
+}
+
+.submitButton {
+	padding: 10px;
+	background-color: #4caf50;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+	background-color: #45a049;
+}
+
+.cancelButton {
+	padding: 10px;
+	background-color: #f44336;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.cancelButton:hover {
+	background-color: #d32f2f;
+}
+
+.errorMessage {
+	color: red;
+	font-size: 0.9rem;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}

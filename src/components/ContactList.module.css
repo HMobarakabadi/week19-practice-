@@ -1,0 +1,80 @@
+.contact-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.contact-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 12px 20px;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.contact-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.contact-checkbox {
+	margin-right: 10px;
+}
+
+.contact-actions {
+	display: flex;
+	gap: 10px;
+}
+
+button {
+	padding: 8px 14px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: bold;
+	transition: background-color 0.3s ease;
+}
+
+.delete-button {
+	background-color: #f44336;
+	color: white;
+}
+
+.delete-button:hover {
+	background-color: #d32f2f;
+}
+
+.edit-button {
+	background-color: #ffeb3b;
+	color: black;
+}
+
+.edit-button:hover {
+	background-color: #fbc02d;
+}
+
+.bulk-delete-button {
+	padding: 10px;
+	background-color: #2196f3;
+	color: white;
+	border-radius: 5px;
+	font-weight: bold;
+	cursor: pointer;
+	width: fit-content;
+	margin-bottom: 20px;
+	transition: background-color 0.3s ease;
+}
+
+.bulk-delete-button:hover {
+	background-color: #1976d2;
+}
